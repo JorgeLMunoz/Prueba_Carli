@@ -267,7 +267,7 @@ section
 	height: 54px;
 	width: 174px;
 	text-align: center;
-	border: solid 2px #452b78;
+	border: solid 2px #000000;
 	background: transparent;
 }
 .button a
@@ -278,7 +278,7 @@ section
 	font-weight: 700;
 	line-height: 50px;
 	text-transform: uppercase;
-	color: #452b78;
+	color: #000000;
 }
 .prlx_parent
 {
@@ -710,7 +710,7 @@ section
 }
 .card:hover .card-title
 {
-	color: #452b78;
+	
 }
 .card-text
 {
@@ -724,8 +724,13 @@ section
 {
 	font-size: 14px;
 	font-weight: 600;
-	color: #452b78;
+	color: #000000;
 	text-transform: uppercase;
+}
+
+.card-link:hover
+{
+	padding-left : 1px;
 }
 
 /*********************************
@@ -745,7 +750,7 @@ section
 }
 .footer_logo a
 {
-	color: #452b78;
+	color: #000000;
 	line-height: 1;
 }
 .footer_intro p
